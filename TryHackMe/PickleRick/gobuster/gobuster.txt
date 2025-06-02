@@ -1,0 +1,8 @@
+/.html               [33m (Status: 403)[0m [Size: 278]
+/.php                [33m (Status: 403)[0m [Size: 278]
+/index.html          [32m (Status: 200)[0m [Size: 1062]
+/assets              [36m (Status: 301)[0m [Size: 315][34m [--> http://10.10.174.115/assets/][0m
+/portal.php          [36m (Status: 302)[0m [Size: 0][34m [--> /login.php][0m
+/clue.txt            [32m (Status: 200)[0m [Size: 54]
+/robots.txt          [32m (Status: 200)[0m [Size: 17]
+/login.php           [32m (Status: 200)[0m [Size: 882]

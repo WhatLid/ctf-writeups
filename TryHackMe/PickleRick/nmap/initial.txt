@@ -1,0 +1,27 @@
+# Nmap 7.95 scan initiated Mon Jun  2 19:42:11 2025 as: /usr/lib/nmap/nmap --privileged -T4 -A -o initial.txt 10.10.174.115
+Nmap scan report for 10.10.174.115
+Host is up (0.059s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 eb:1e:fa:3d:dc:cd:28:bf:a8:9f:8d:b6:64:40:ee:5c (RSA)
+|   256 3d:d7:af:76:82:23:8d:3c:7b:3a:bd:c8:6b:f1:4e:d7 (ECDSA)
+|_  256 2c:a1:6b:c8:76:f4:50:ea:59:12:eb:4d:4d:7d:89:66 (ED25519)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: Rick is sup4r cool
+Device type: general purpose
+Running: Linux 4.X
+OS CPE: cpe:/o:linux:linux_kernel:4.15
+OS details: Linux 4.15
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 995/tcp)
+HOP RTT      ADDRESS
+1   62.01 ms 10.23.0.1
+2   62.35 ms 10.10.174.115
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jun  2 19:42:23 2025 -- 1 IP address (1 host up) scanned in 12.14 seconds
